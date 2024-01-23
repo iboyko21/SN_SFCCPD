@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 19:43:59</sys_created_on>
+        <sys_id>8b8e3ce3937331102c7e393efaba109f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_968807_sfccpd_incidents.x_968807_sfccpd.user</sys_name>
+        <sys_package display_value="SFCCPD" source="x_968807_sfccpd">5ffbbc23937331102c7e393efaba10b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</sys_scope>
+        <sys_security_acl display_value="x_968807_sfccpd_incidents">fa8e3ce3937331102c7e393efaba1077</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8b8e3ce3937331102c7e393efaba109f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 19:43:59</sys_updated_on>
+        <sys_user_role display_value="x_968807_sfccpd.user" name="x_968807_sfccpd.user">d7fbbc23937331102c7e393efaba10be</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</application>
+        <file_path/>
+        <instance_id>180ac2c71b79f110c84543f4bd4bcbf0</instance_id>
+        <instance_name>dev186062</instance_name>
+        <name>sys_security_acl_role_8b8e3ce3937331102c7e393efaba109f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-23 19:43:59</sys_created_on><sys_id>8b8e3ce3937331102c7e393efaba109f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_968807_sfccpd_incidents.x_968807_sfccpd.user</sys_name><sys_package display_value="SFCCPD" source="x_968807_sfccpd">5ffbbc23937331102c7e393efaba10b0</sys_package><sys_policy/><sys_scope display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</sys_scope><sys_security_acl display_value="x_968807_sfccpd_incidents">fa8e3ce3937331102c7e393efaba1077</sys_security_acl><sys_update_name>sys_security_acl_role_8b8e3ce3937331102c7e393efaba109f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-23 19:43:59</sys_updated_on><sys_user_role display_value="x_968807_sfccpd.user" name="x_968807_sfccpd.user">d7fbbc23937331102c7e393efaba10be</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-797348801</payload_hash>
+        <record_name>x_968807_sfccpd_incidents.x_968807_sfccpd.user</record_name>
+        <reverted_from/>
+        <source>4bcdbca3937331102c7e393efaba10ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 19:43:59</sys_created_on>
+        <sys_id>cf8e3ce3937331102c7e393efaba10a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d37d9d76d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 19:43:59</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>078e3ce300733110cc997ab8c20815a1</update_guid>
+        <update_guid_history>078e3ce300733110cc997ab8c20815a1:-797348801</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_968807_sfccpd_incidents.x_968807_sfccpd.user">9f86856f937331102c7e393efaba1060</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 20:18:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>02716a92c73b437e806ce70a4c2931f1</sys_id>
+        <sys_metadata>8b8e3ce3937331102c7e393efaba109f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_968807_sfccpd_incidents.x_968807_sfccpd.user</sys_name>
+        <sys_package display_value="SFCCPD" source="x_968807_sfccpd">5ffbbc23937331102c7e393efaba10b0</sys_package>
+        <sys_parent display_value="">fa8e3ce3937331102c7e393efaba1077</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</sys_scope>
+        <sys_scope_delete display_value="">3ae1f4677253426c8163a710ff481c90</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_8b8e3ce3937331102c7e393efaba109f</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_8b8e3ce3937331102c7e393efaba109f">cf8e3ce3937331102c7e393efaba10a1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 20:18:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

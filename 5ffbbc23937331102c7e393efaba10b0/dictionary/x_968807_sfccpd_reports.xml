@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2462092b937331102c7e393efaba102f" label="Reports" max_length="40" name="x_968807_sfccpd_reports" type="collection">
+        <element label="Incident Numer" max_length="32" name="incident_numer" reference="x_968807_sfccpd_incidents" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Short Description" max_length="40" name="short_description" type="string"/>
+        <index name="index">
+            <element name="incident_numer"/>
+        </index>
+    </element>
+</database>

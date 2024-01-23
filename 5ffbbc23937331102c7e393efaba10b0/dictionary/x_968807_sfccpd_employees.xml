@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="18ef3867937331102c7e393efaba106d" label="Employees" max_length="40" name="x_968807_sfccpd_employees" type="collection">
+        <element label="Badge Number" max_length="40" name="badge_number" type="integer"/>
+        <element label="DOB" max_length="40" name="dob" type="glide_date"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element choice="3" label="Position" max_length="40" name="position" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Police Officer" sequence="0" value="Police Officer"/>
+                <element inactive_on_update="false" label="Police Sergeant" sequence="1" value="Police Sergeant"/>
+                <element inactive_on_update="false" label="Police Lieutenant" sequence="2" value="Police Li"/>
+                <element inactive_on_update="false" label="Campus Control Aide" sequence="3" value="Campus Control Aide"/>
+                <element inactive_on_update="false" label="Dispatcher" sequence="4" value="Dispatcher"/>
+                <element inactive_on_update="false" label="Secretary" sequence="5" value="Secretary"/>
+                <element inactive_on_update="false" label="Chief" sequence="6" value="Chief"/>
+            </choice>
+        </element>
+    </element>
+</database>
