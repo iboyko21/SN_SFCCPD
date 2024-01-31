@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Handcuffs">b0105a3d938402102c7e393efaba1047</sc_cat_item>
+        <sc_catalog display_value="SFCCPD">6c340424930002102c7e393efaba1057</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 01:27:00</sys_created_on>
+        <sys_id>7b201e3d938402102c7e393efaba10fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SFCCPD.Handcuffs</sys_name>
+        <sys_package display_value="SFCCPD" source="x_968807_sfccpd">5ffbbc23937331102c7e393efaba10b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_7b201e3d938402102c7e393efaba10fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 01:27:00</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</application>
+        <file_path/>
+        <instance_id>180ac2c71b79f110c84543f4bd4bcbf0</instance_id>
+        <instance_name>dev186062</instance_name>
+        <name>sc_cat_item_catalog_7b201e3d938402102c7e393efaba10fa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Handcuffs">b0105a3d938402102c7e393efaba1047</sc_cat_item><sc_catalog display_value="SFCCPD">6c340424930002102c7e393efaba1057</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-31 01:27:00</sys_created_on><sys_id>7b201e3d938402102c7e393efaba10fa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SFCCPD.Handcuffs</sys_name><sys_package display_value="SFCCPD" source="x_968807_sfccpd">5ffbbc23937331102c7e393efaba10b0</sys_package><sys_policy/><sys_scope display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</sys_scope><sys_update_name>sc_cat_item_catalog_7b201e3d938402102c7e393efaba10fa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-31 01:27:00</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1233116987</payload_hash>
+        <record_name>SFCCPD.Handcuffs</record_name>
+        <reverted_from/>
+        <source>4bcdbca3937331102c7e393efaba10ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 01:27:00</sys_created_on>
+        <sys_id>77201e3d938402102c7e393efaba10fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d5d2065be0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 01:27:00</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>f7201e3d9484021098689dd78b87d4fd</update_guid>
+        <update_guid_history>f7201e3d9484021098689dd78b87d4fd:-1233116987</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SFCCPD.Handcuffs">51305e3d938402102c7e393efaba10d6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 01:27:06</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>0a3f9664a03c4b2687391023bb042079</sys_id>
+        <sys_metadata>7b201e3d938402102c7e393efaba10fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SFCCPD.Handcuffs</sys_name>
+        <sys_package display_value="SFCCPD" source="x_968807_sfccpd">5ffbbc23937331102c7e393efaba10b0</sys_package>
+        <sys_parent display_value="Handcuffs">b0105a3d938402102c7e393efaba1047</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</sys_scope>
+        <sys_scope_delete display_value="">3ae1f4677253426c8163a710ff481c90</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_7b201e3d938402102c7e393efaba10fa</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_7b201e3d938402102c7e393efaba10fa">77201e3d938402102c7e393efaba10fe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 01:27:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
