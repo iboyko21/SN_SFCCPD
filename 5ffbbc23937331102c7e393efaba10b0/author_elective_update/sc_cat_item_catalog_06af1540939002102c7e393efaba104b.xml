@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="ASP 21\&quot; Friction Baton">587f9d00939002102c7e393efaba10d3</sc_cat_item>
+        <sc_catalog display_value="SFCCPD">6c340424930002102c7e393efaba1057</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-06 21:41:18</sys_created_on>
+        <sys_id>06af1540939002102c7e393efaba104b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SFCCPD.ASP 21\" Friction Baton</sys_name>
+        <sys_package display_value="SFCCPD" source="x_968807_sfccpd">5ffbbc23937331102c7e393efaba10b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_06af1540939002102c7e393efaba104b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-06 21:41:18</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</application>
+        <file_path/>
+        <instance_id>180ac2c71b79f110c84543f4bd4bcbf0</instance_id>
+        <instance_name>dev186062</instance_name>
+        <name>sc_cat_item_catalog_06af1540939002102c7e393efaba104b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="ASP 21\&quot; Friction Baton">587f9d00939002102c7e393efaba10d3</sc_cat_item><sc_catalog display_value="SFCCPD">6c340424930002102c7e393efaba1057</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-06 21:41:18</sys_created_on><sys_id>06af1540939002102c7e393efaba104b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SFCCPD.ASP 21\" Friction Baton</sys_name><sys_package display_value="SFCCPD" source="x_968807_sfccpd">5ffbbc23937331102c7e393efaba10b0</sys_package><sys_policy/><sys_scope display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</sys_scope><sys_update_name>sc_cat_item_catalog_06af1540939002102c7e393efaba104b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-06 21:41:18</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>87621595</payload_hash>
+        <record_name>SFCCPD.ASP 21\" Friction Baton</record_name>
+        <reverted_from/>
+        <source>4bcdbca3937331102c7e393efaba10ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-06 21:41:19</sys_created_on>
+        <sys_id>4aaf1540939002102c7e393efaba104f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d805e484d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-06 21:41:19</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>caaf15403f90021020ed17d31feca14e</update_guid>
+        <update_guid_history>caaf15403f90021020ed17d31feca14e:87621595</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SFCCPD.ASP 21\&quot; Friction Baton">67af1540939002102c7e393efaba10e3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-06 21:41:24</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>3048d595f85342049ff72b3df6101c99</sys_id>
+        <sys_metadata>06af1540939002102c7e393efaba104b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SFCCPD.ASP 21\" Friction Baton</sys_name>
+        <sys_package display_value="SFCCPD" source="x_968807_sfccpd">5ffbbc23937331102c7e393efaba10b0</sys_package>
+        <sys_parent display_value="ASP 21\&quot; Friction Baton">587f9d00939002102c7e393efaba10d3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</sys_scope>
+        <sys_scope_delete display_value="">3ae1f4677253426c8163a710ff481c90</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_06af1540939002102c7e393efaba104b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_06af1540939002102c7e393efaba104b">4aaf1540939002102c7e393efaba104f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-06 21:41:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
