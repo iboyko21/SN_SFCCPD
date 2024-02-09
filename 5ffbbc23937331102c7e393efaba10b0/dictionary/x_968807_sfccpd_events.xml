@@ -42,7 +42,7 @@
         </element>
         <element label="Location" max_length="40" name="location" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Event No" max_length="40" name="number" read_only="true" type="string"/>
-        <element choice="1" label="Units Assigned" max_length="40" name="units_assigned" type="choice">
+        <element choice="1" label="Units Assigned" max_length="40" name="units_assigned" type="glide_list">
             <choice>
                 <element inactive_on_update="false" label="1U100" value="1U100"/>
                 <element inactive_on_update="false" label="1U101" value="1U101"/>
