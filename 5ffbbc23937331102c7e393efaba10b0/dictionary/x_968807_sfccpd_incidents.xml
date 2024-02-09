@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="d5b6896f937331102c7e393efaba105f" label="Incidents" max_length="40" name="x_968807_sfccpd_incidents" type="collection">
+    <element db_object_id="d5b6896f937331102c7e393efaba105f" label="Calls for Service" max_length="40" name="x_968807_sfccpd_incidents" type="collection">
         <element label="Assigned To" max_length="32" name="assigned_to" reference="x_968807_sfccpd_employees" type="reference"/>
+        <element label="Comments" max_length="100" name="comments" type="string"/>
         <element choice="3" label="Disposition" max_length="40" name="disposition" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Arrest Made" sequence="0" value="Arrest Made"/>
@@ -8,6 +9,9 @@
                 <element inactive_on_update="false" label="Referred To" sequence="2" value="Referred To"/>
                 <element inactive_on_update="false" label="Admonished" sequence="3" value="Admonished"/>
                 <element inactive_on_update="false" label="Medical" sequence="4" value="Medical"/>
+                <element inactive_on_update="false" label="Report Taken" sequence="5" value="Report Taken"/>
+                <element inactive_on_update="false" label="Cleared" sequence="6" value="Cleared"/>
+                <element inactive_on_update="false" label="Unable To Locate" sequence="7" value="Unable To Locate"/>
             </choice>
         </element>
         <element label="Location" max_length="40" name="location" type="string"/>
@@ -19,7 +23,22 @@
                 <element inactive_on_update="false" label="C - Low" sequence="2" value="3"/>
             </choice>
         </element>
-        <element label="Short Description" max_length="40" name="short_description" type="string"/>
+        <element choice="1" label="Call Type" max_length="40" name="short_description" type="choice">
+            <choice>
+                <element hint="Calls related to an alarm notification of a potential burglary, robbery, or other crime." inactive_on_update="false" label="Alarm Call" value="Alarm Call"/>
+                <element hint="An occurrence involving an animal such as a bite report or injured animal." inactive_on_update="false" label="Animal Call" value="Animal Call"/>
+                <element hint="Causing or attempting to cause harm through the use of physical force and/or a weapon." inactive_on_update="false" label="Assault" value="Assault"/>
+                <element hint="An occurrence that is a threat to public peace, health, safety and welfare such as loud music, illegal fireworks, trespassing, etc." inactive_on_update="false" label="Disturbance" value="Disturbance"/>
+                <element hint="Events related to parking violations such as parking in a red zone or blocking a driveway." inactive_on_update="false" label="Parking Problem" value="Parking Problem"/>
+                <element hint="A wide range of events that include responses to shots heard, suspicious person, citizen assist, etc." inactive_on_update="false" label="Police Activity" value="Police Activity"/>
+                <element hint="Deterring criminal activity by showing police presence and enforcing laws. Examples of this include vehicle stop or patrol check." inactive_on_update="false" label="Proactive Policing" value="Proactive Policing"/>
+                <element hint="Crimes against property that include arson, burglary, and vandalism." inactive_on_update="false" label="Property Crime" value="Property Crime"/>
+                <element hint="Events related to the taking of money or goods in the possession of another by force or intimidation." inactive_on_update="false" label="Robbery" value="Robbery"/>
+                <element hint="Crimes in which a person intentionally and fraudulently takes personal property of another without permission or consent." inactive_on_update="false" label="Theft" value="Theft"/>
+                <element hint="Events that involve roads and streets and include drunk driving, reckless driving, and traffic collisions." inactive_on_update="false" label="Traffic" value="Traffic"/>
+                <element hint="Events that typically involve more investigation upon arrival. These events can include an open door, bomb threat, prowler seen, etc." inactive_on_update="false" label="Unknown" value="Unknown"/>
+            </choice>
+        </element>
         <element choice="3" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Open" sequence="0" value="Open"/>

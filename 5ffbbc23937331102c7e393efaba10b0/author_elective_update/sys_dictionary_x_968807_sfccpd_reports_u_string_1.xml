@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_string_1" table="x_968807_sfccpd_reports">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Narrative2</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_string_1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_968807_sfccpd_reports</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-08 21:00:55</sys_created_on>
+        <sys_id>75992768931002102c7e393efaba10f2</sys_id>
+        <sys_name>Narrative2</sys_name>
+        <sys_package display_value="SFCCPD" source="x_968807_sfccpd">5ffbbc23937331102c7e393efaba10b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</sys_scope>
+        <sys_update_name>sys_dictionary_x_968807_sfccpd_reports_u_string_1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-08 21:00:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</application>
+        <file_path/>
+        <instance_id>180ac2c71b79f110c84543f4bd4bcbf0</instance_id>
+        <instance_name>dev186062</instance_name>
+        <name>sys_dictionary_x_968807_sfccpd_reports_u_string_1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_string_1" table="x_968807_sfccpd_reports"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Narrative2</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_string_1</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_968807_sfccpd_reports</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-08 21:00:55</sys_created_on><sys_id>75992768931002102c7e393efaba10f2</sys_id><sys_name>Narrative2</sys_name><sys_package display_value="SFCCPD" source="x_968807_sfccpd">5ffbbc23937331102c7e393efaba10b0</sys_package><sys_policy/><sys_scope display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</sys_scope><sys_update_name>sys_dictionary_x_968807_sfccpd_reports_u_string_1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-08 21:00:55</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1865088313</payload_hash>
+        <record_name>Reports.Narrative2</record_name>
+        <reverted_from/>
+        <source>4bcdbca3937331102c7e393efaba10ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-08 21:00:55</sys_created_on>
+        <sys_id>bd996768931002102c7e393efaba103f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d8a86043f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-08 21:00:55</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>35996768c81002109129d0d859b9fb3f</update_guid>
+        <update_guid_history>35996768c81002109129d0d859b9fb3f:-1865088313</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-08 22:59:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>85528694209246caa7f263c91ba7dec1</sys_id>
+        <sys_metadata>75992768931002102c7e393efaba10f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Narrative2</sys_name>
+        <sys_package display_value="SFCCPD" source="x_968807_sfccpd">5ffbbc23937331102c7e393efaba10b0</sys_package>
+        <sys_parent display_value="">2462092b937331102c7e393efaba102f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</sys_scope>
+        <sys_scope_delete display_value="">3ae1f4677253426c8163a710ff481c90</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_968807_sfccpd_reports_u_string_1</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_968807_sfccpd_reports_u_string_1">bd996768931002102c7e393efaba103f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-08 22:59:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

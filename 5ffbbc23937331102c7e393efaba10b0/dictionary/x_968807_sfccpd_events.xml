@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fcc440f4939002102c7e393efaba1024" label="Events" max_length="40" name="x_968807_sfccpd_events" type="collection">
+        <element label="Date" max_length="40" name="date" type="glide_date_time"/>
+        <element choice="1" label="Disposition" max_length="40" name="disposition" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Advised" value="Advised"/>
+                <element inactive_on_update="false" label="Ambulance Transport" value="Ambulance Transport"/>
+                <element inactive_on_update="false" label="Arrest" value="Arrest"/>
+                <element inactive_on_update="false" label="Assisted" value="Assisted"/>
+                <element inactive_on_update="false" label="Checked and Cleared" value="Checked and Cleared"/>
+                <element inactive_on_update="false" label="Citation issued" value="Citation issued"/>
+                <element inactive_on_update="false" label="Detained" value="Detained"/>
+                <element hint="If other, see more in comments" inactive_on_update="false" label="Other" value="Other"/>
+                <element inactive_on_update="false" label="Report Taken" value="Report Taken"/>
+                <element inactive_on_update="false" label="Unable To Locate" value="Unable To Locate"/>
+                <element inactive_on_update="false" label="Vehicle Towed" value="Vehicle Towed"/>
+            </choice>
+        </element>
+        <element choice="1" label="Event Type" max_length="40" name="event_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Abandoned Vehicle" value="Abandoned Vehicle"/>
+                <element inactive_on_update="false" label="Alarm Call" value="Alarm Call"/>
+                <element inactive_on_update="false" label="Animal Call" value="Animal Call"/>
+                <element inactive_on_update="false" label="Assault" value="Assault"/>
+                <element inactive_on_update="false" label="Citizen Assist" value="Citizen Assist"/>
+                <element inactive_on_update="false" label="Disturbance" value="Disturbance"/>
+                <element inactive_on_update="false" label="Fire" value="Fire"/>
+                <element inactive_on_update="false" label="Illegal Parking" value="Illegal Parking"/>
+                <element inactive_on_update="false" label="Medical" value="Medical"/>
+                <element inactive_on_update="false" label="Open Door" value="Open Door"/>
+                <element inactive_on_update="false" label="Patrol Check" value="Patrol Check"/>
+                <element inactive_on_update="false" label="Pedestrian Stop" value="Pedestrian Stop"/>
+                <element inactive_on_update="false" label="Reckless Driver" value="Reckless Driver"/>
+                <element inactive_on_update="false" label="Suspicious Occurrence" value="Suspicious Occurrence"/>
+                <element inactive_on_update="false" label="Theft" value="Theft"/>
+                <element inactive_on_update="false" label="Traffic Collision" value="Traffic Collision"/>
+                <element inactive_on_update="false" label="Trespassing" value="Trespassing"/>
+                <element inactive_on_update="false" label="Unknown" value="Unknown"/>
+                <element inactive_on_update="false" label="Vehicle Stop" value="Vehicle Stop"/>
+                <element inactive_on_update="false" label="Welfare Check" value="Welfare Check"/>
+            </choice>
+        </element>
+        <element label="Location" max_length="40" name="location" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Event No" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" label="Units Assigned" max_length="40" name="units_assigned" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1U100" value="1U100"/>
+                <element inactive_on_update="false" label="1U101" value="1U101"/>
+                <element inactive_on_update="false" label="1U200" value="1U200"/>
+                <element inactive_on_update="false" label="1U21" value="1U21"/>
+                <element inactive_on_update="false" label="1U28" value="1U28"/>
+                <element inactive_on_update="false" label="1U38" value="1U38"/>
+                <element inactive_on_update="false" label="1U46" value="1U46"/>
+                <element inactive_on_update="false" label="1U47" value="1U47"/>
+                <element inactive_on_update="false" label="1U52" value="1U52"/>
+                <element inactive_on_update="false" label="1U600" value="1U600"/>
+            </choice>
+        </element>
+    </element>
+</database>

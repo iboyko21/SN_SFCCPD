@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="short_description" label="Call Type" language="en" table="x_968807_sfccpd_incidents">
+    <sys_documentation element="location" label="Location" language="en" table="x_968807_sfccpd_events">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>short_description</element>
+            <element>location</element>
             <help/>
             <hint/>
-            <label>Call Type</label>
+            <label>Location</label>
             <language>en</language>
-            <name>x_968807_sfccpd_incidents</name>
-            <plural>Call Types</plural>
+            <name>x_968807_sfccpd_events</name>
+            <plural>Locations</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-23 20:21:54</sys_created_on>
-            <sys_mod_count>4</sys_mod_count>
-            <sys_name>Call Type</sys_name>
+            <sys_created_on>2024-02-09 23:05:07</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Location</sys_name>
             <sys_package display_value="SFCCPD" source="x_968807_sfccpd">5ffbbc23937331102c7e393efaba10b0</sys_package>
             <sys_policy/>
             <sys_scope display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</sys_scope>
-            <sys_update_name>sys_documentation_x_968807_sfccpd_incidents_short_description_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_968807_sfccpd_events_location_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-08 22:40:56</sys_updated_on>
+            <sys_updated_on>2024-02-09 23:05:07</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
