@@ -18,7 +18,7 @@
             </choice>
         </element>
         <element label="Location" max_length="40" name="location" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice_table="x_968807_sfccpd_employees" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice_table="x_968807_sfccpd_employees" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="7" name="number" read_only="true" type="string"/>
         <element choice="3" label="Priority" max_length="40" name="priority" type="choice">
             <choice>
                 <element inactive_on_update="false" label="A - High" sequence="0" value="1"/>
