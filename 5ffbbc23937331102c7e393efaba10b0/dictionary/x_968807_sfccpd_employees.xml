@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="18ef3867937331102c7e393efaba106d" label="Employees" max_length="40" name="x_968807_sfccpd_employees" type="collection">
         <element label="Badge Number" max_length="40" name="badge_number" type="integer"/>
+        <element label="Call Sign" max_length="5" name="call_sign" type="string"/>
         <element label="DOB" max_length="40" name="dob" type="glide_date"/>
         <element label="First Name" max_length="40" name="first_name" type="string"/>
         <element label="Home Address" max_length="40" name="home_address" type="string"/>
