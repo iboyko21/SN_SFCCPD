@@ -32,6 +32,7 @@
                 <element inactive_on_update="false" label="Pedestrian Stop" value="Pedestrian Stop"/>
                 <element inactive_on_update="false" label="Reckless Driver" value="Reckless Driver"/>
                 <element inactive_on_update="false" label="Suspicious Occurrence" value="Suspicious Occurrence"/>
+                <element inactive_on_update="false" label="Suspicious Person" value="Suspicious Person"/>
                 <element inactive_on_update="false" label="Theft" value="Theft"/>
                 <element inactive_on_update="false" label="Traffic Collision" value="Traffic Collision"/>
                 <element inactive_on_update="false" label="Trespassing" value="Trespassing"/>
