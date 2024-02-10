@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="d5b6896f937331102c7e393efaba105f" label="Calls for Service" max_length="40" name="x_968807_sfccpd_incidents" type="collection">
         <element label="Assigned To" max_length="32" name="assigned_to" reference="x_968807_sfccpd_employees" type="reference"/>
+        <element choice="1" label="Campus" max_length="40" name="campus" reference="x_968807_sfccpd_campuses" type="reference">
+            <choice/>
+        </element>
         <element label="Comments" max_length="100" name="comments" type="string"/>
         <element choice="3" label="Disposition" max_length="40" name="disposition" type="choice">
             <choice>
