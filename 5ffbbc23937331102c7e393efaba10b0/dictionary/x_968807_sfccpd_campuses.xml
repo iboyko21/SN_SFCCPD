@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="ec8ad505939402102c7e393efaba10a8" label="Campuses" max_length="40" name="x_968807_sfccpd_campuses" type="collection">
         <element label="Address" max_length="40" name="address" type="string"/>
+        <element choice="1" label="District" max_length="40" name="district" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bayview" value="Bayview"/>
+                <element inactive_on_update="false" label="Ingleside" value="Ingleside"/>
+                <element inactive_on_update="false" label="Mission" value="Mission"/>
+                <element inactive_on_update="false" label="Northern" value="Northern"/>
+            </choice>
+        </element>
         <element label="Name" max_length="40" name="name" type="string"/>
     </element>
 </database>
