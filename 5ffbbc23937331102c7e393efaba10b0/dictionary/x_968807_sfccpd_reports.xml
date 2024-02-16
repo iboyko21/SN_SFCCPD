@@ -3,7 +3,33 @@
         <element label="Approved By" max_length="32" name="approved_by" reference="x_968807_sfccpd_employees" type="reference"/>
         <element label="Assigned To" max_length="32" name="assigned_to" reference="x_968807_sfccpd_employees" type="reference"/>
         <element label="Campus" max_length="32" name="campus" reference="x_968807_sfccpd_campuses" type="reference"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Event Number" max_length="32" name="event_number" reference="x_968807_sfccpd_events" type="reference"/>
+        <element choice="1" choice_field="event_type" choice_table="x_968807_sfccpd_events" label="Incident Type" max_length="40" name="incident_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Abandoned Vehicle" sequence="0" value="Abandoned Vehicle"/>
+                <element inactive_on_update="false" label="Alarm Call" sequence="1" value="Alarm Call"/>
+                <element inactive_on_update="false" label="Animal Call" sequence="2" value="Animal Call"/>
+                <element inactive_on_update="false" label="Assault" sequence="3" value="Assault"/>
+                <element inactive_on_update="false" label="Citizen Assist" sequence="4" value="Citizen Assist"/>
+                <element inactive_on_update="false" label="Disturbance" sequence="5" value="Disturbance"/>
+                <element inactive_on_update="false" label="Fire" sequence="6" value="Fire"/>
+                <element inactive_on_update="false" label="Illegal Parking" sequence="7" value="Illegal Parking"/>
+                <element inactive_on_update="false" label="Medical" sequence="8" value="Medical"/>
+                <element inactive_on_update="false" label="Open Door" sequence="9" value="Open Door"/>
+                <element inactive_on_update="false" label="Patrol Check" sequence="10" value="Patrol Check"/>
+                <element inactive_on_update="false" label="Pedestrian Stop" sequence="11" value="Pedestrian Stop"/>
+                <element inactive_on_update="false" label="Reckless Driver" sequence="12" value="Reckless Driver"/>
+                <element inactive_on_update="false" label="Suspicious Occurrence" sequence="13" value="Suspicious Occurrence"/>
+                <element inactive_on_update="false" label="Suspicious Person" sequence="14" value="Suspicious Person"/>
+                <element inactive_on_update="false" label="Theft" sequence="15" value="Theft"/>
+                <element inactive_on_update="false" label="Traffic Collision" sequence="16" value="Traffic Collision"/>
+                <element inactive_on_update="false" label="Trespassing" sequence="17" value="Trespassing"/>
+                <element inactive_on_update="false" label="Unknown" sequence="18" value="Unknown"/>
+                <element inactive_on_update="false" label="Vehicle Stop" sequence="19" value="Vehicle Stop"/>
+                <element inactive_on_update="false" label="Welfare Check" sequence="20" value="Welfare Check"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <index name="index">
             <element name="approved_by"/>
         </index>
@@ -12,6 +38,9 @@
         </index>
         <index name="index3">
             <element name="campus"/>
+        </index>
+        <index name="index4">
+            <element name="event_number"/>
         </index>
     </element>
 </database>

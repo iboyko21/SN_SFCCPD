@@ -10,9 +10,9 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice/>
+        <choice>3</choice>
         <choice_field/>
-        <choice_table/>
+        <choice_table>x_968807_sfccpd_campuses</choice_table>
         <column_label>Campus</column_label>
         <comments/>
         <create_roles/>
@@ -58,7 +58,7 @@
         <sys_scope display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</sys_scope>
         <sys_update_name>sys_dictionary_x_968807_sfccpd_events_campus</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-16 00:01:08</sys_updated_on>
+        <sys_updated_on>2024-02-16 20:05:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
