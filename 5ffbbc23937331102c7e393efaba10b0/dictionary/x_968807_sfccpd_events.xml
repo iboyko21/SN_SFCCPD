@@ -52,6 +52,12 @@
                 <element inactive_on_update="false" label="Officer Observed" value="officer observed"/>
             </choice>
         </element>
+        <element choice="3" default="open" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" value="closed"/>
+                <element inactive_on_update="false" label="Open" value="open"/>
+            </choice>
+        </element>
         <element choice="1" label="Units Assigned" max_length="40" name="units_assigned" type="glide_list">
             <choice>
                 <element inactive_on_update="false" label="1U100" value="1U100"/>

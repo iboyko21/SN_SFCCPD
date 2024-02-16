@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="18ef3867937331102c7e393efaba106d" label="Employees" max_length="40" name="x_968807_sfccpd_employees" type="collection">
         <element label="Badge Number" max_length="40" name="badge_number" type="integer"/>
-        <element label="Call Sign" max_length="5" name="call_sign" type="string"/>
+        <element choice="1" label="Call Sign" max_length="5" name="call_sign" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1U00" value="1u00"/>
+                <element inactive_on_update="false" label="1U100" value="1u100"/>
+                <element inactive_on_update="false" label="1U101" value="1u101"/>
+                <element inactive_on_update="false" label="1U102" value="1u102"/>
+                <element inactive_on_update="false" label="1U27" value="1u27"/>
+                <element inactive_on_update="false" label="1U28" value="1u28"/>
+                <element inactive_on_update="false" label="1U38" value="1u38"/>
+                <element inactive_on_update="false" label="1U46" value="1u46"/>
+                <element inactive_on_update="false" label="1U47" value="1u47"/>
+                <element inactive_on_update="false" label="1U52" value="1u52"/>
+            </choice>
+        </element>
         <element label="DOB" max_length="40" name="dob" type="glide_date"/>
         <element label="First Name" max_length="40" name="first_name" type="string"/>
         <element label="Home Address" max_length="40" name="home_address" type="string"/>
         <element label="Last Name" max_length="40" name="last_name" type="string"/>
-        <element label="Phone Number" max_length="40" name="phone_number" type="integer"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="phone_number_e164"/>
         <element choice="3" label="Position" max_length="40" name="position" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Police Officer" sequence="0" value="Police Officer"/>
