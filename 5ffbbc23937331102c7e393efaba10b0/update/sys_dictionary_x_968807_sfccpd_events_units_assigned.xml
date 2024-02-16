@@ -40,12 +40,14 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_968807_sfccpd_employees">x_968807_sfccpd_employees</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>call_sign!=^EQ</reference_qual>
+        <reference_qual_condition table="x_968807_sfccpd_employees">call_sign!=^EQ<item display_value="-- None --" endquery="false" field="call_sign" goto="false" newquery="false" operator="!=" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <reference_type/>
         <spell_check>false</spell_check>
         <staged>false</staged>
@@ -58,7 +60,7 @@
         <sys_scope display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</sys_scope>
         <sys_update_name>sys_dictionary_x_968807_sfccpd_events_units_assigned</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-09 23:46:40</sys_updated_on>
+        <sys_updated_on>2024-02-16 03:39:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

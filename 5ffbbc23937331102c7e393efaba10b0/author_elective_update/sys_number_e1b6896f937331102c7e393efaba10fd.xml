@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_968807_sfccpd_incidents">x_968807_sfccpd_incidents</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1</number>
+        <prefix/>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 20:19:40</sys_created_on>
+        <sys_id>e1b6896f937331102c7e393efaba10fd</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SFCCPD" source="x_968807_sfccpd">5ffbbc23937331102c7e393efaba10b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</sys_scope>
+        <sys_update_name>sys_number_e1b6896f937331102c7e393efaba10fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-10 03:09:35</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</application>
+        <file_path/>
+        <instance_id>180ac2c71b79f110c84543f4bd4bcbf0</instance_id>
+        <instance_name>dev186062</instance_name>
+        <name>sys_number_e1b6896f937331102c7e393efaba10fd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_968807_sfccpd_incidents">x_968807_sfccpd_incidents</category><maximum_digits>7</maximum_digits><number>1</number><prefix/><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-23 20:19:40</sys_created_on><sys_id>e1b6896f937331102c7e393efaba10fd</sys_id><sys_mod_count>7</sys_mod_count><sys_name/><sys_package display_value="SFCCPD" source="x_968807_sfccpd">5ffbbc23937331102c7e393efaba10b0</sys_package><sys_policy/><sys_scope display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</sys_scope><sys_update_name>sys_number_e1b6896f937331102c7e393efaba10fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-10 03:09:35</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>1046846872</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>4bcdbca3937331102c7e393efaba10ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-10 03:09:35</sys_created_on>
+        <sys_id>1497c249935802102c7e393efaba1044</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d90fde94f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-10 03:09:35</sys_updated_on>
+        <type>Number</type>
+        <update_guid>d897c249585802108a1ab51a48fb9b43</update_guid>
+        <update_guid_history>d897c249585802108a1ab51a48fb9b43:1046846872,ad370ec5a558021085951804913dd3d9:1686975317,eff60609d2580210587abeb77bec6c1c:-909573658,0ce6c209f15802106594defd0fedbee9:-137974875,09c64ac5335802104fb0f81b0296d0bc:1916152983,4ea6cec59d58021039f489be0d84e2e2:2087138711,e91682c586580210ce40fa3498f2f8e1:1046846872,0916c685c0580210e62c6ba48bfee36c:-78290344</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-16 03:24:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>6c10abc38b82454cb1fec4b5b3812e10</sys_id>
+        <sys_metadata>e1b6896f937331102c7e393efaba10fd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SFCCPD" source="x_968807_sfccpd">5ffbbc23937331102c7e393efaba10b0</sys_package>
+        <sys_parent display_value="">d5b6896f937331102c7e393efaba105f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</sys_scope>
+        <sys_scope_delete display_value="">3ae1f4677253426c8163a710ff481c90</sys_scope_delete>
+        <sys_update_name>sys_number_e1b6896f937331102c7e393efaba10fd</sys_update_name>
+        <sys_update_version display_value="sys_number_e1b6896f937331102c7e393efaba10fd">1497c249935802102c7e393efaba1044</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-16 03:24:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
