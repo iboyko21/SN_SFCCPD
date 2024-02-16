@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5aa8d1cb939402102c7e393efaba101b" label="Report" max_length="40" name="x_968807_sfccpd_report" type="collection">
+        <element label="Event No" max_length="32" name="event_no" reference="x_968807_sfccpd_events" type="reference"/>
+        <index name="index">
+            <element name="event_no"/>
+        </index>
+    </element>
+</database>

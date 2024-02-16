@@ -58,19 +58,8 @@
                 <element inactive_on_update="false" label="Open" value="open"/>
             </choice>
         </element>
-        <element choice="1" label="Units Assigned" max_length="40" name="units_assigned" reference="x_968807_sfccpd_employees" reference_qual="call_sign!=^EQ" reference_qual_condition="call_sign!=^EQ" type="glide_list">
-            <choice>
-                <element inactive_on_update="false" label="1U100" value="1U100"/>
-                <element inactive_on_update="false" label="1U101" value="1U101"/>
-                <element inactive_on_update="false" label="1U200" value="1U200"/>
-                <element inactive_on_update="false" label="1U21" value="1U21"/>
-                <element inactive_on_update="false" label="1U28" value="1U28"/>
-                <element inactive_on_update="false" label="1U38" value="1U38"/>
-                <element inactive_on_update="false" label="1U46" value="1U46"/>
-                <element inactive_on_update="false" label="1U47" value="1U47"/>
-                <element inactive_on_update="false" label="1U52" value="1U52"/>
-                <element inactive_on_update="false" label="1U600" value="1U600"/>
-            </choice>
+        <element choice="1" label="Units Assigned" max_length="40" name="units_assigned" reference="x_968807_sfccpd_employees" type="glide_list">
+            <choice/>
         </element>
         <index name="index">
             <element name="campus"/>
