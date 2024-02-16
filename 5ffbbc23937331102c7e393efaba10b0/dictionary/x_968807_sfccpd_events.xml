@@ -61,7 +61,7 @@
                 <element inactive_on_update="false" label="Open" value="open"/>
             </choice>
         </element>
-        <element attributes="ref_Ac_columns=call_sign" choice="1" label="Units Assigned" max_length="40" name="units_assigned" reference="x_968807_sfccpd_employees" type="glide_list">
+        <element attributes="ref_Ac_columns=call_sign" choice="1" label="Units Assigned" max_length="40" name="units_assigned" reference="sys_user" reference_qual="department=860ca09f939002102c7e393efaba102f^EQ" reference_qual_condition="department=860ca09f939002102c7e393efaba102f^EQ" type="glide_list">
             <choice/>
         </element>
         <index name="index">

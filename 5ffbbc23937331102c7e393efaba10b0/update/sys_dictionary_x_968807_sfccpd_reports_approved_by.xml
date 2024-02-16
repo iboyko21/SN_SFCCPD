@@ -40,12 +40,16 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_968807_sfccpd_employees">x_968807_sfccpd_employees</reference>
+        <reference display_value="" name="sys_user">sys_user</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>department=860ca09f939002102c7e393efaba102f^title!=Police Officer^title!=Police Dispatcher^EQ</reference_qual>
+        <reference_qual_condition table="sys_user">department=860ca09f939002102c7e393efaba102f^title!=Police Officer^title!=Police Dispatcher^EQ<item display_table="cmn_department" display_value="SFCCPD" endquery="false" field="department" goto="false" newquery="false" operator="=" or="false" value="860ca09f939002102c7e393efaba102f"/>
+            <item endquery="false" field="title" goto="false" newquery="false" operator="!=" or="false" value="Police Officer"/>
+            <item endquery="false" field="title" goto="false" newquery="false" operator="!=" or="false" value="Police Dispatcher"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <reference_type/>
         <spell_check>false</spell_check>
         <staged>false</staged>
@@ -58,7 +62,7 @@
         <sys_scope display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</sys_scope>
         <sys_update_name>sys_dictionary_x_968807_sfccpd_reports_approved_by</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-16 19:37:07</sys_updated_on>
+        <sys_updated_on>2024-02-16 22:20:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a941e89f935002102c7e393efaba104c" label="Reports" max_length="40" name="x_968807_sfccpd_reports" type="collection">
-        <element label="Approved By" max_length="32" name="approved_by" reference="x_968807_sfccpd_employees" type="reference"/>
-        <element label="Assigned To" max_length="32" name="assigned_to" reference="x_968807_sfccpd_employees" type="reference"/>
+        <element label="Approved By" max_length="32" name="approved_by" reference="sys_user" reference_qual="department=860ca09f939002102c7e393efaba102f^title!=Police Officer^title!=Police Dispatcher^EQ" reference_qual_condition="department=860ca09f939002102c7e393efaba102f^title!=Police Officer^title!=Police Dispatcher^EQ" type="reference"/>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" reference_qual="department=860ca09f939002102c7e393efaba102f^EQ" reference_qual_condition="department=860ca09f939002102c7e393efaba102f^EQ" type="reference"/>
         <element label="Campus" max_length="32" name="campus" reference="x_968807_sfccpd_campuses" type="reference"/>
         <element label="Event Number" max_length="32" name="event_number" reference="x_968807_sfccpd_events" type="reference"/>
         <element choice="1" choice_field="event_type" choice_table="x_968807_sfccpd_events" label="Incident Type" max_length="40" name="incident_type" type="choice">
