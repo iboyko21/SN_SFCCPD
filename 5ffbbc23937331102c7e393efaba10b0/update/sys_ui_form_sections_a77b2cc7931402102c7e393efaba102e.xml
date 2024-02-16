@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="a77b2cc7931402102c7e393efaba102e" sys_domain="global" table="x_968807_sfccpd_events" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 01:35:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>237b2cc7931402102c7e393efaba10ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_968807_sfccpd_events" name="x_968807_sfccpd_events" sys_domain="global" view="Default view">a77b2cc7931402102c7e393efaba102e</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_968807_sfccpd_events" sys_domain="global" view="Default view">15589941939402102c7e393efaba1084</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 01:35:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 01:35:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f7b2cc7931402102c7e393efaba10ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_968807_sfccpd_events" name="x_968807_sfccpd_events" sys_domain="global" view="Default view">a77b2cc7931402102c7e393efaba102e</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_968807_sfccpd_events" sys_domain="global" view="Default view">2f7b2cc7931402102c7e393efaba102d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 01:35:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_968807_sfccpd_events</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 01:35:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a77b2cc7931402102c7e393efaba102e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_968807_sfccpd_events</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SFCCPD" source="x_968807_sfccpd">5ffbbc23937331102c7e393efaba10b0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SFCCPD">5ffbbc23937331102c7e393efaba10b0</sys_scope>
+            <sys_update_name>sys_ui_form_sections_a77b2cc7931402102c7e393efaba102e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 01:35:10</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
