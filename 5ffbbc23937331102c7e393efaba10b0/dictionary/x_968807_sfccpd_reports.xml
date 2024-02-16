@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a941e89f935002102c7e393efaba104c" label="Reports" max_length="40" name="x_968807_sfccpd_reports" type="collection">
+        <element label="Approved By" max_length="32" name="approved_by" reference="x_968807_sfccpd_employees" type="reference"/>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="x_968807_sfccpd_employees" type="reference"/>
+        <element label="Campus" max_length="32" name="campus" reference="x_968807_sfccpd_campuses" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="approved_by"/>
+        </index>
+        <index name="index2">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index3">
+            <element name="campus"/>
+        </index>
+    </element>
+</database>
