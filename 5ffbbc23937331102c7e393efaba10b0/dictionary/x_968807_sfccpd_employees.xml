@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="18ef3867937331102c7e393efaba106d" label="Employees" max_length="40" name="x_968807_sfccpd_employees" type="collection">
         <element label="Badge Number" max_length="40" name="badge_number" type="integer"/>
-        <element choice="1" label="Call Sign" max_length="5" name="call_sign" type="choice">
+        <element choice="1" display="true" label="Call Sign" max_length="5" name="call_sign" type="choice">
             <choice>
                 <element inactive_on_update="false" label="1U00" value="1u00"/>
                 <element inactive_on_update="false" label="1U100" value="1u100"/>
