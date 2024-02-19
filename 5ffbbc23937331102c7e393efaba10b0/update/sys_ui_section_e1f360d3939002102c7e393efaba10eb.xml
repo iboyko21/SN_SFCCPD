@@ -4,41 +4,55 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-16 19:50:46</sys_created_on>
-            <sys_id>44466897939002102c7e393efaba1060</sys_id>
+            <sys_created_on>2024-02-19 21:06:24</sys_created_on>
+            <sys_id>5d5498d493e002102c7e393efaba10e1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_968807_sfccpd_reports" sys_domain="global" view="Default view">e1f360d3939002102c7e393efaba10eb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-16 19:50:46</sys_updated_on>
+            <sys_updated_on>2024-02-19 21:06:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>event_number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 21:06:24</sys_created_on>
+            <sys_id>dd5498d493e002102c7e393efaba10e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_968807_sfccpd_reports" sys_domain="global" view="Default view">e1f360d3939002102c7e393efaba10eb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 21:06:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-16 19:50:46</sys_created_on>
-            <sys_id>c4466897939002102c7e393efaba1060</sys_id>
+            <sys_created_on>2024-02-19 21:06:24</sys_created_on>
+            <sys_id>515498d493e002102c7e393efaba10e2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_968807_sfccpd_reports" sys_domain="global" view="Default view">e1f360d3939002102c7e393efaba10eb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-16 19:50:46</sys_updated_on>
+            <sys_updated_on>2024-02-19 21:06:24</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>event_number</element>
-            <position>2</position>
+            <element>state</element>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-16 19:50:46</sys_created_on>
-            <sys_id>48466897939002102c7e393efaba1060</sys_id>
+            <sys_created_on>2024-02-19 21:06:24</sys_created_on>
+            <sys_id>d15498d493e002102c7e393efaba10e2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_968807_sfccpd_reports" sys_domain="global" view="Default view">e1f360d3939002102c7e393efaba10eb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-16 19:50:46</sys_updated_on>
+            <sys_updated_on>2024-02-19 21:06:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
