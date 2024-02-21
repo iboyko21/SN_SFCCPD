@@ -4,6 +4,7 @@
         <element choice="1" display="true" label="Call Sign" max_length="5" name="call_sign" type="choice">
             <choice>
                 <element inactive_on_update="false" label="1U00" value="1U00"/>
+                <element inactive_on_update="false" label="1U01" value="1U01"/>
                 <element inactive_on_update="false" label="1U100" value="1U100"/>
                 <element inactive_on_update="false" label="1U101" value="1U101"/>
                 <element inactive_on_update="false" label="1U102" value="1U102"/>
