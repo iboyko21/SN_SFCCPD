@@ -8,6 +8,7 @@
                 <element inactive_on_update="false" label="1U100" value="1U100"/>
                 <element inactive_on_update="false" label="1U101" value="1U101"/>
                 <element inactive_on_update="false" label="1U102" value="1U102"/>
+                <element inactive_on_update="false" label="1U200" value="1U200"/>
                 <element inactive_on_update="false" label="1U21" value="1U21"/>
                 <element inactive_on_update="false" label="1U22" value="1U22"/>
                 <element inactive_on_update="false" label="1U27" value="1U27"/>
@@ -16,6 +17,7 @@
                 <element inactive_on_update="false" label="1U46" value="1U46"/>
                 <element inactive_on_update="false" label="1U47" value="1U47"/>
                 <element inactive_on_update="false" label="1U52" value="1U52"/>
+                <element inactive_on_update="false" label="1U57" value="1U57"/>
                 <element inactive_on_update="false" label="1U600" value="1U600"/>
             </choice>
         </element>
