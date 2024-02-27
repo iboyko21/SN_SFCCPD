@@ -10,5 +10,9 @@
             </choice>
         </element>
         <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Officer Assigned" max_length="32" name="officer_assigned" reference="sys_user" reference_qual="department=860ca09f939002102c7e393efaba102f^EQ" reference_qual_condition="department=860ca09f939002102c7e393efaba102f^EQ" type="reference"/>
+        <index name="index">
+            <element name="officer_assigned"/>
+        </index>
     </element>
 </database>
